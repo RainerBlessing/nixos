@@ -30,15 +30,15 @@
     };
 
   fileSystems."/mnt/F" = {
-    device = "/dev/sdd2"; # Alternativ: "UUID=<UUID>";
+    device = "/dev/disk/by-uuid/58FAD50AFAD4E572";
     fsType = "ntfs-3g"; # Ersetze "ext4" durch dein Dateisystem (z. B. "xfs", "btrfs" etc.)
   };
   fileSystems."/mnt/G" = {
-    device = "/dev/sdd3"; # Alternativ: "UUID=<UUID>";
+    device = "/dev/disk/by-uuid/807ECF0D7ECEFAC4";
     fsType = "ntfs-3g"; # Ersetze "ext4" durch dein Dateisystem (z. B. "xfs", "btrfs" etc.)
   };
     fileSystems."/mnt/Volume" = {
-    device = "/dev/nvme0n1p2"; # Alternativ: "UUID=<UUID>";
+    device = "/dev/disk/by-uuid/861C162C1C16182F";
     fsType = "ntfs-3g"; # Ersetze "ext4" durch dein Dateisystem (z. B. "xfs", "btrfs" etc.)
   };
 
